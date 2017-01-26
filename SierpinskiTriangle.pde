@@ -7,7 +7,7 @@ public void draw()
 {
 	background(255);
 	bob.sierpinski(0, 600, mouseX);
-	frameRate(5);
+	frameRate(10);
 	//triangle(100, 100, 200, 100, 150, 50);
 
 }
@@ -46,7 +46,7 @@ class Triangle{
 
 	public void sierpinski(int x, int y, int len){
 		int a = (int)((Math.random()*255)+100);
-		if(len <= 200){
+		if(len <= 30){
 			//noStroke();
 			stroke(185, 185, 185);
 			fill(a, a, a, (int)((Math.random()*300)+150));
