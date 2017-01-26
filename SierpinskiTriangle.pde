@@ -6,7 +6,7 @@ public void setup()
 public void draw()
 {
 	background(255);
-	bob.sierpinski(0, 600, mouseX + 100);
+	bob.sierpinski(0, 600, mouseX);
 	frameRate(10);
 	//triangle(100, 100, 200, 100, 150, 50);
 
